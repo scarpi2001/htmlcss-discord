@@ -1,0 +1,240 @@
+/* Generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/* intestazione */
+header {
+    background-image: url("img/jumpo.png");
+}
+
+/* barra di navigazione */
+nav {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    width: 80%;
+    margin: 0 auto;
+    /* DEBUG */
+    background-color: blueviolet;
+}
+
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 25%;
+    }
+
+    .menu {
+         width: 50%;
+    }
+
+        #nav-area {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-around;
+            list-style-type: none;
+        }
+
+            .link {
+                text-decoration: none;
+                color: black;
+            }
+
+            .bianco {
+                color: #fff;
+            }
+
+    .access {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 25%;
+    }
+
+    /* Bottoni */
+        .button {
+            padding: 5px 10px;
+            border-radius: 15%;
+        }
+
+        .white {
+            background-color: #fff;
+        }
+
+        .black {
+            background-color: rgb(22, 20, 20);
+            color: #fff;
+        }
+
+
+
+/* sottosezione header */
+.under-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    height: 360px;
+    border: 1px solid black;
+}
+
+    .blocco-undernav {
+        text-align: center;
+        width: 50%;
+        /* DEBUG */
+        background-color: blueviolet;
+        border: 1px solid black;
+    }
+
+        .blocco-undernav h1 {
+            color: #fff;
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        .paragrafo-bianco {
+            color: #fff;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .bottoni {
+            margin-top: 15px;
+        }
+
+            .bottoni .white {
+                margin-right: 15px;
+            }
+
+            .bottoni .white::before {
+                content: "\1F817";
+                margin-right: 5px;
+            }
+
+/* corpo della pagina */
+
+/* riga */
+.riga {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    /* DEBUG */
+    height: 400px;
+}
+
+    .sezione-immagine {
+        width: 60%;
+        /* DEBUG */
+        background-color: blue;
+        border: 1px solid black;
+
+    }
+
+    .sezione-testo {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        /* DEBUG */
+        background-color: aqua;
+        border: 1px solid black;
+    }
+
+        .testo {
+            /* DEBUG */
+            border: 1px solid black;
+            height: 50%;
+        }
+
+.due {
+    flex-direction: row-reverse;
+}
+
+/* colonna */
+.colonna {
+    display: flex;
+    flex-direction: column;
+    /* DEBUG */
+    height: 800px;
+    background-color: brown;
+}
+
+    .sezione {
+        /* DEBUG */
+        height: 10%;
+        border: 1px solid black;
+    }
+
+    .immagine-colonna {
+        /* DEBUG */
+        height: 60%;
+        border: 1px solid black;
+    }
+
+    .download {
+        /* DEBUG */
+        height: 20%;
+        border: 1px solid black;
+    }
+
+    /* footer */
+    footer {
+        padding: 50px 0;
+        /* DEBUG */
+        /* height: 700px; */
+        background-color: black;
+    }
+
+        .blocco-footer {
+            display: flex;
+            width: 80%;
+            margin: 0 auto;
+            /* DEBUG */
+            background-color: grey;
+            height: 400px;
+        }
+
+            .sottoblocco-footer {
+                /* DEBUG */
+                width: 20%;
+                border: 1px solid black;
+            }
+
+        /* piedipagina */
+        .piedipagina {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: 0 auto;
+            /* DEBUG */
+            background-color: grey;
+            border: 1px solid black;
+            height: 60px;
+
+        }
+
+            .register {
+                width: 25%;
+                border: 1px solid black;
+            }
+
+
+
+
+
+
+
+
+
+
+

@@ -6,13 +6,15 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
     font-size: 16px;
 }
 
 /* intestazione */
 header {
-    background-image: url("img/jumbo.png");
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    height: 500px;
 }
 
 /* barra di navigazione */
@@ -21,9 +23,9 @@ nav {
     align-items: center;
     padding-top: 15px;
     width: 80%;
+    height: 10%;
     margin: 0 auto;
-    /* DEBUG */
-    background-color: blueviolet;
+
 }
 
     .logo {
@@ -81,20 +83,14 @@ nav {
 /* sottosezione header */
 .under-nav {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* DEBUG */
-    height: 360px;
-    border: 1px solid black;
+    height: 90%;
 }
 
     .blocco-undernav {
         text-align: center;
         width: 50%;
-        /* DEBUG */
-        background-color: blueviolet;
-        border: 1px solid black;
     }
 
         .blocco-undernav h1 {
@@ -126,14 +122,25 @@ nav {
 
 /* riga */
 .riga {
-    width: 80%;
     display: flex;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
     /* DEBUG */
-    height: 400px;
-}
+    height: 700px;
+    border: 1px solid black;
+}   
+
+    .blocco-riga {
+        display: flex;
+        width: 70%;
+        margin: auto;
+        /* DEBUG */
+        height: 400px;
+    }
 
     .sezione-immagine {
+        display: flex;
+        justify-content: flex-end;
         width: 60%;
         /* DEBUG */
         background-color: blue;

@@ -7,7 +7,7 @@
 
 body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /* intestazione */
@@ -96,12 +96,12 @@ nav {
         .blocco-undernav h1 {
             color: #fff;
             font-size: 50px;
-            margin-bottom: 10px;
+            margin-bottom: 30px;
         }
 
         .paragrafo-bianco {
             color: #fff;
-            width: 90%;
+            width: 80%;
             margin: 0 auto;
         }
 
@@ -125,43 +125,44 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* DEBUG */
-    height: 700px;
-    border: 1px solid black;
+    min-height: 700px;
 }   
+
+.grigia {
+    background-color: rgb(241, 233, 233);
+}
 
     .blocco-riga {
         display: flex;
-        width: 70%;
-        margin: auto;
-        /* DEBUG */
-        height: 400px;
+        margin: auto 0;
+        width: 80%;
     }
 
     .sezione-immagine {
         display: flex;
         justify-content: flex-end;
         width: 60%;
-        /* DEBUG */
-        background-color: blue;
-        border: 1px solid black;
+    }  
 
+        .img-riga {
+            width: 600px;
+        }
+    
+    .reverse {
+        justify-content: center;
     }
 
     .sezione-testo {
-        display: flex;
-        flex-direction: column;
         width: 40%;
-        /* DEBUG */
-        background-color: aqua;
-        border: 1px solid black;
+        padding: 30px;
+        text-align: left;
     }
 
-        .testo {
-            /* DEBUG */
-            border: 1px solid black;
-            height: 50%;
-        }
+       .sezione-testo h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+       }
+   
 
 .due {
     flex-direction: row-reverse;
@@ -169,8 +170,9 @@ nav {
 
 /* colonna */
 .colonna {
-    display: flex;
-    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    text-align: center;
     /* DEBUG */
     height: 800px;
     background-color: brown;

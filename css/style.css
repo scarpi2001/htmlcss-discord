@@ -14,7 +14,8 @@ body {
 header {
     background-image: url("../img/jumbo.png");
     background-size: cover;
-    height: 500px;
+    background-position: center;
+    height: 600px;
 }
 
 /* barra di navigazione */
@@ -65,8 +66,8 @@ nav {
 
     /* Bottoni */
         .button {
-            padding: 5px 10px;
-            border-radius: 15%;
+            padding: 10px 15px;
+            border-radius: 20px;
         }
 
         .white {
